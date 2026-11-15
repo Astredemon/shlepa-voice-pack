@@ -1,0 +1,631 @@
+﻿# Шлёпа - Sprachpaket für Dreame-, MOVA- und Trouver-Saugroboter
+# 593 Ansagen.
+#
+# Die Nummern gelten für alle Modelle: Dreame nutzt eine gemeinsame
+# Nummerierung, nachgeprüft an acht fremden Modellen. Ansagen, die dein
+# Roboter nicht kennt, übergeht die App beim Bauen.
+#
+# So arbeitest du damit:
+#   1. Diese Datei komplett kopieren und einer Sprach-KI geben. Ein
+#      Auftrag, der sich bewährt hat:
+#
+#        "Unten stehen die Ansagen eines Saugroboters auf Шлёпа.
+#         Bitte überarbeite ausschließlich die dritte Spalte, damit sie
+#         natürlich und einheitlich klingt. Nummer und Bedeutung
+#         unverändert lassen, den Aufbau der Zeilen beibehalten und alle
+#         Zeilen zurückgeben. Die Sätze bleiben kurz und werden
+#         gesprochen, nicht gelesen."
+#
+#   2. Die Antwort hier wieder einfügen und die Datei speichern.
+#   3. In der App auf "Texte aus Datei einlesen" klicken.
+#
+# Aufbau je Zeile:   Nummer | Bedeutung auf Hochdeutsch | Dialekttext
+#
+# Beim Einlesen zählt die Nummer und alles hinter dem zweiten
+# senkrechten Strich. Zeilen mit # und Leerzeilen werden überlesen.
+# Zeilen, die du löschst, bleiben unverändert - du kannst also auch
+# nur einen Teil überarbeiten lassen.
+#
+# Halte die Sätze kurz. Die Originalansagen sind zwei bis sechs
+# Sekunden lang; alles Längere wirkt am Roboter geschwätzig.
+
+
+# ---------------------------------------------------------------------
+# Ansagen
+# ---------------------------------------------------------------------
+
+   1 | Warte auf Netzwerkkonfiguration | Жду сеть. Не тяни, я уже готов.
+   2 | WLAN-Verbindung fehlgeschlagen | С Wi-Fi не вышло. Проверь пароль.
+   3 | Keine Serververbindung | До сервера не достучался.
+   4 | Netzwerkmodus verlassen | Вышел из режима подключения.
+   5 | Netzwerk erfolgreich verbunden | Сеть поймана! Теперь мы на связи.
+   6 | Netzwerkverbindung fehlgeschlagen | Сеть не подключилась. Попробуй ещё раз позже.
+   7 | Reinigung gestartet | Ну всё, поехали убираться!
+   8 | Punktreinigung gestartet | Точечно пройдусь — пятно не спрячется.
+   9 | Geplante Reinigung gestartet | По расписанию пора за работу.
+  10 | Reinigung wird fortgesetzt | Продолжаю уборку. Я ещё не закончил.
+  11 | Puzzed | На паузе. Передохну чуток.
+  12 | Reinigung abgeschlossen | Готово! Пол теперь чистый.
+  13 | Fahre zur Station zum Laden | Еду на базу подзарядиться.
+  14 | Akku schwach - fahre zum Laden, setze danach fort | Заряд на исходе. Подзаряжусь и продолжу.
+  17 | Bitte Roboter zurück zur Basisstation setzen | Верни меня на базу, пожалуйста.
+  18 | Lädt | Заряжаюсь. Не отвлекай.
+  19 | Roboter vor dem Ausschalten von der Station nehmen | Сними меня со станции перед выключением.
+  20 | Akku schwach | Батарея садится.
+  21 | Akku schwach - Roboter schaltet ab | Заряд закончился. Выключаюсь.
+  24 | Wassertank prüfen | Проверь бак с водой.
+  25 | Akku zu schwach für geplante Reinigung | Для уборки по расписанию заряда маловато.
+  26 | Setze auf Werkseinstellungen zurück | Сбрасываю настройки до заводских.
+  27 | Update läuft (ca. 5 Minuten) | Обновляюсь. Это займёт около пяти минут.
+  28 | Update erfolgreich | Обновление прошло успешно!
+  29 | Update fehlgeschlagen | Обновиться не получилось. Попробуй позже.
+  30 | Positionierung läuft | Определяю своё положение.
+  31 | Positionierung fehlgeschlagen - Karte ungültig | Не могу найтись: карта недействительна.
+  34 | Teil nicht eingesetzt | Деталь не установлена. Проверь.
+  35 | Fehler Hauptbürste - bitte reinigen | Основная щётка застряла. Почисти её.
+  36 | Fehler Seitenbürste - bitte reinigen | Боковая щётка застряла. Освободи её.
+  37 | Fehler rechtes Rad | Ошибка правого колеса.
+  38 | Fehler linkes Rad | Ошибка левого колеса.
+  39 | Räder ohne Bodenkontakt - Absturzsensoren reinigen | Колёса не касаются пола. Почисти датчики падения.
+  40 | Roboter steckt fest - Hindernisse entfernen | Я застрял. Убери препятствие.
+  41 | Räder ohne Bodenkontakt - Roboter umsetzen | Колёса висят в воздухе. Переставь меня.
+  42 | Filter prüfen und reinigen | Фильтр пора проверить и почистить.
+  43 | Fehler Stoßstange | Бампер заело. Проверь его.
+  44 | Allgemeiner Fehler - Handbuch prüfen | Что-то пошло не так. Загляни в инструкцию.
+  45 | Ich bin hier | Я здесь!
+  46 | Roboter und Telefon verbunden | Робот и телефон соединены.
+  47 | Ladevorgang gestartet | Зарядка началась.
+  48 | Akku schwach - fahre zur Station | Заряда мало. Возвращаюсь на базу.
+  50 | Ladefehler - Ladekontakte reinigen | Зарядка не идёт. Почисти контакты.
+  52 | Roboter schräg - auf ebenen Boden stellen | Я стою криво. Поставь меня ровно.
+  54 | Positionierung erfolgreich - Reinigung fortgesetzt | Нашёлся! Продолжаю уборку.
+  55 | Positionierung erfolgreich - fahre weiter zur Station | Положение определил. Еду на базу.
+  56 | Raumreinigung gestartet | Начинаю уборку комнаты.
+  57 | Zonenreinigung gestartet | Убираю выбранную зону.
+  58 | Reinigungsauftrag wird fortgesetzt | Продолжаю заданную уборку.
+  59 | Kartierung fertig - Wassertank entnehmen | Карта готова. Сними бак с водой.
+  61 | Wischen gestartet | Включаю влажную уборку.
+  62 | Fernsteuerung gestartet | Запускаю дистанционное управление.
+  64 | Positionierung fehlgeschlagen - fahre zur Station | Не смог определить положение. Еду на базу.
+  65 | Rückfahrt zur Station fortgesetzt | Продолжаю путь к станции.
+  66 | Filter verschlissen - ersetzen | Фильтр износился. Пора заменить.
+  67 | Seitenbürste verschlissen - ersetzen | Боковая щётка износилась. Замени её.
+  68 | Hauptbürste verschlissen - ersetzen | Основная щётка износилась. Замени её.
+  71 | Laser-Abstandssensor blockiert | Лазерный датчик заблокирован. Проверь его.
+  72 | Abdeckung des Lasersensors blockiert | Крышка лазерного датчика заблокирована.
+  73 | Fehler Kantensensor | Ошибка датчика края.
+  75 | Filter feucht oder verstopft | Фильтр влажный или забит. Почисти его.
+  77 | Bitte auf Hartboden starten | Запусти меня на твёрдом полу.
+  81 | Fehler Teppichsensor | Ошибка датчика ковра.
+  82 | Kartierung gestartet | Начинаю строить карту.
+  83 | Kartierung wird fortgesetzt | Продолжаю строить карту.
+  84 | Kartierung abgeschlossen | Карта готова!
+  85 | Positionierung erfolgreich - Kartierung läuft weiter | Нашёл своё место. Продолжаю строить карту.
+  86 | Positionierung fehlgeschlagen - Kartierung neu gestartet | Не смог найти положение. Перестраиваю карту.
+  87 | Akku schwach - fahre zur Station | Заряд маловат. Еду на базу.
+  91 | Frischwassertank nicht eingesetzt | Бак с чистой водой не установлен.
+  93 | Wenig Frischwasser - bitte auffüllen | Чистой воды мало. Долей, пожалуйста.
+  97 | Staubbeutel einsetzen | Установи мешок для пыли.
+ 101 | Klappe der Absaugstation offen oder Staubbeutel fehlt | Крышка станции открыта или мешка нет.
+ 102 | Staubbeutel voll oder Luftkanal verstopft | Мешок полон или воздуховод забился.
+ 104 | Waschbrett nicht eingesetzt | Установи моющую платформу.
+ 105 | Reinigung gestartet | Начинаю уборку.
+ 106 | Wischpad-Reinigung gestartet | Начинаю промывать салфетки.
+ 107 | Wischpads werden getrocknet | Сушу салфетки. Не мешай процессу.
+ 108 | Fehler Wasserstand Waschbrett | Неправильный уровень воды в моющей платформе.
+ 109 | Fehler Schmutzwassertank | Ошибка бака с грязной водой.
+ 110 | Automatische Absaugung gestartet | Запускаю автоматическую очистку пылесборника.
+ 111 | Wischpads fehlen - bitte anbringen | Салфеток нет. Установи их.
+ 112 | Roboter zuerst in die Station stellen | Сначала поставь меня на станцию.
+ 113 | Fertig - Schmutzwassertank leeren | Готово! Опустоши бак с грязной водой.
+ 114 | Wischpads angebracht | Салфетки установлены.
+ 115 | Wischpads entfernt | Салфетки сняты.
+ 116 | Kindersicherung aktiv | Защита от детей включена.
+ 117 | Kindersicherung aus | Защита от детей выключена.
+ 118 | Tasten gesperrt | Кнопки заблокированы.
+ 126 | Reinigung gestartet | Уборка началась. Поехали!
+ 127 | Punktreinigung gestartet | Точечная уборка началась.
+ 128 | Punktwischen gestartet | Точечно протираю это место.
+ 129 | Geplante Reinigung gestartet | По расписанию пора убираться.
+ 130 | Geplante Kartierung gestartet | По расписанию начинаю строить карту.
+ 133 | Raumreinigung gestartet | Убираю выбранную комнату.
+ 134 | Raumwischen gestartet | Начинаю мыть пол в комнате.
+ 135 | Zonenreinigung gestartet | Убираю выбранную зону.
+ 136 | Zonenwischen gestartet | Мою пол в выбранной зоне.
+ 137 | Reinigung fortgesetzt | Продолжаю уборку.
+ 138 | Wischen fortgesetzt | Продолжаю мыть пол.
+ 139 | Kehre zurück | Возвращаюсь на базу.
+ 140 | Neue Umgebung erkannt - fahre zur Station | Новая обстановка! Еду на станцию.
+ 142 | Wischpad verschlissen - ersetzen | Салфетка износилась. Пора заменить.
+ 143 | Reinigung abgeschlossen | Уборка завершена. Принимай работу!
+ 144 | Wischen abgeschlossen | Мытьё пола завершено.
+ 145 | Positioning successful, resume cleaning. | Нашёл положение. Продолжаю уборку.
+ 146 | Positioning successful, resume mapping. | Нашёл положение. Продолжаю строить карту.
+ 148 | Fahre zur Station zur Selbstreinigung | Еду на станцию на самоочистку.
+ 149 | Bereich nicht erreichbar - Hindernisse entfernen | Туда не попасть. Убери препятствия.
+ 150 | Unable to reach the specified area, please try to delete no-go zones in the path. | Не могу пройти. Удали запретную зону на пути.
+ 151 | Weg blockiert - Hindernisse entfernen | Путь перекрыт. Убери препятствия.
+ 152 | The path is blocked. Please try to delete no-go zones or move your robot out of this area. | Проход закрыт. Удали запретную зону или освободи путь.
+ 153 | Roboter in Sperrzone - bitte herausnehmen | Я в запретной зоне. Переставь меня оттуда.
+ 156 | Wischpad nicht eingesetzt | Салфетка не установлена. Поставь её.
+ 162 | Kamera an | Камера включена.
+ 163 | Kameraüberwachung | Включаю видеонаблюдение.
+ 164 | Auftrag beendet | Задание завершено.
+ 166 | Fremdkörper am Wischpad entfernen | Убери мусор с салфетки.
+ 169 | Wischpad-Trocknung abgeschlossen | Сушка салфетки завершена.
+ 170 | Tastensperre - an der Station entsperren | Кнопки заблокированы. Разблокируй меня на станции.
+ 171 | Intelligente Hindernisvermeidung an | Умное объезжание препятствий включено.
+ 172 | Intelligente Hindernisvermeidung aus | Умное объезжание препятствий выключено.
+ 173 | Silberionen-Modul ersetzen | Замени модуль ионов серебра.
+ 177 | Verlasse die Basisstation | Выезжаю со станции.
+ 179 | Wischpad gereinigt - Frischwasser auffüllen | Салфетка вымыта. Долей чистую воду.
+ 181 | Wenig Wasser - Tank auffüllen | Мало воды. Наполни бак.
+ 186 | Frischwassertank prüfen | Проверь бак с чистой водой.
+ 187 | Dauert etwa 5-10 Minuten | Это займёт примерно пять-десять минут.
+ 188 | Automatisches Andocken aktiv | Автоматическая стыковка включена.
+ 190 | OK, starte Reinigung | Отлично, начинаю уборку.
+ 191 | OK, starte Saugen und Wischen | Хорошо, буду пылесосить и мыть.
+ 192 | OK, starte Wischen | Хорошо, начинаю мыть пол.
+ 193 | OK, starte Saugen | Хорошо, начинаю пылесосить.
+ 194 | have been cleaning. | Я уже вовсю убираюсь.
+ 195 | Okay, start to clean the room. Make sure the door is open. | Хорошо, убираю комнату. Только открой дверь.
+ 196 | Okay, start to vacuum the floor. Make sure the door is open. | Хорошо, пылесошу пол. Дверь не забудь открыть.
+ 197 | Okay, start to mop the floor. Make sure the door is open. | Хорошо, мою пол. Открой дверь, пожалуйста.
+ 198 | Okay, start to vacuum and mop the floor. Make sure the door is open. | Хорошо, пылесошу и мою. Дверь должна быть открыта.
+ 199 | Unable to recognize this room. Please open the app to check the room name. | Не узнаю эту комнату. Проверь её название в приложении.
+ 200 | Bye- Spain | Пока-пока!
+ 201 | Okay, continue working. | Хорошо, продолжаю.
+ 202 | Okay, task is ended. Start returning to charge. | Задание завершено. Возвращаюсь заряжаться.
+ 203 | Okay, heading back to charge. | Еду обратно на зарядку.
+ 204 | Okay, start mapping. Please make sure all doors are open. | Начинаю строить карту. Открой все двери.
+ 205 | Okay, exit the base station. | Выезжаю со станции.
+ 206 | Okay, I'll try to find you. | Сейчас попробую тебя найти.
+ 207 | Sorry, I can't find you. Please stand within my sight. | Не вижу тебя. Встань, пожалуйста, передо мной.
+ 208 | Found you, coming to clean now. | Нашёл тебя! Уже еду убираться.
+ 209 | Okay, returning to the dock to clean the mop pad. | Возвращаюсь на станцию мыть салфетку.
+ 210 | Start mob pads washing. | Начинаю мыть салфетки.
+ 211 | Sorry, self emptying can only be done when I'm inside the dock. | Опустошать пылесборник можно только на станции.
+ 212 | Okay, start auto emptying. | Запускаю автоочистку пылесборника.
+ 213 | Sorry, drying can only be done when I'm inside the dock. | Сушить салфетки можно только на станции.
+ 214 | Drawing in progress. | Сушка уже идёт. Не мешай.
+ 215 | Okay, start drying. | Запускаю сушку.
+ 216 | Sorry, need to install the mop pad first. | Сначала установи салфетку.
+ 217 | Maximum suction power reached. | Мощность всасывания уже максимальная.
+ 218 | minimum suction power reached. | Мощность всасывания уже минимальная.
+ 219 | Maximum humidity reached. | Уровень влажности уже максимальный.
+ 220 | minimum humidity reached. | Уровень влажности уже минимальный.
+ 221 | OK | Ага.
+ 222 | The suction mode is quiet. | Включён тихий режим всасывания.
+ 223 | The suction mode is standard. | Включён обычный режим всасывания.
+ 224 | The suction mode is strong. | Включён мощный режим всасывания.
+ 225 | The suction mode is turbo. | Турборежим! Сейчас наведу чистоту.
+ 226 | The mop pad is slightly dry. | Салфетка слегка влажная.
+ 227 | The Moppad is moist. | Салфетка влажная.
+ 228 | The mop pad is wet. | Салфетка мокрая.
+ 229 | Today is... | Сегодня...
+ 230 | Today is February 21, 2022. | Сегодня 21 февраля 2022 года.
+ 231 | Today is Monday. | Сегодня понедельник.
+ 232 | Today is Tuesday. | Сегодня вторник.
+ 233 | Today is Wednesday. | Сегодня среда.
+ 234 | today is Thursday. | Сегодня четверг.
+ 235 | today as Friday | Сегодня пятница.
+ 236 | Today is Saturday. | Сегодня суббота.
+ 237 | Today is Sunday. | Сегодня воскресенье.
+ 238 | Okay, the task is passed. | Хорошо, задачу принял.
+ 244 | Deturgent bottle installed. | Бутылка с моющим средством установлена.
+ 245 | The number of maps has reached the limit. Please delete a map and try again. | Карт уже максимум. Удали одну и попробуй снова.
+ 246 | Ich bin hier | Я здесь!
+ 247 | Das habe ich nicht verstanden | Не понял. Повтори, пожалуйста.
+ 248 | Moppad not installed, please install it and try again. | Салфетка не установлена. Поставь её и попробуй снова.
+ 249 | I'm working, please end the current task and retry. | Я уже работаю. Заверши текущую задачу и повтори.
+ 250 | Currently in Mopping Mode now, please switch to vacuuming mode or vacuuming in Mopping Mode first. | Сейчас режим мытья. Переключи меня на пылесос или совмещённую уборку.
+ 251 | Currently in vacuuming mode now, please switch to Mopping mode or vacuuming and Mopping mode first. | Сейчас режим пылесоса. Переключи меня на мытьё или совмещённую уборку.
+ 252 | finished, exited the customized cleaning mode. | Готово, выхожу из индивидуального режима уборки.
+ 253 | Maximale Lautstärke erreicht | Громкость уже максимальная.
+ 254 | Minimale Lautstärke erreicht | Громкость уже минимальная.
+ 255 | Sorry, this task can only be performed when intelligent obstacle avoidance is enabled. | Для этой команды включи умное объезжание препятствий.
+ 257 | Camera monitoring exited. | Видеонаблюдение выключено.
+ 258 | Self-positioned cruising started. | Начинаю самостоятельное патрулирование.
+ 259 | Self-positioned, proceeding to the designated location. | Место определил. Направляюсь туда.
+ 260 | Self-positioned, cruising resumed. | Продолжаю патрулирование.
+ 261 | Self-positioned, resume proceeding to the designated location. | Продолжаю путь к заданной точке.
+ 262 | Self positioning failed. | Не смог определить своё положение.
+ 266 | Reinigungsmittel ersetzen | Пора заменить моющее средство.
+ 267 | Sensoren reinigen | Почисти датчики.
+ 269 | Please try again after the current task is complete. | Повтори команду после завершения текущей задачи.
+ 275 | Sorry, this command is not supported. You can open the app for more voice commands. | Эту команду я не поддерживаю. Другие команды есть в приложении.
+ 276 | Sorry, robot isn't performing this task. | Сейчас я не выполняю эту задачу.
+ 277 | Okay, I'm coming to clean up there. | Уже еду убирать там!
+ 278 | Okay, drying task ended. | Сушка остановлена.
+ 279 | Robot is vacuuming, please end the task and try again. | Я пылесошу. Сначала заверши текущую задачу.
+ 280 | Start custom cleaning. | Запускаю индивидуальную уборку.
+ 281 | The robot is auto emptying. Please try again later. | Идёт очистка пылесборника. Попробуй позже.
+ 282 | The robot is cleaning the mop pad. Please try again later. | Я промываю салфетки. Попробуй позже.
+ 283 | The robot is not in the base station. Please try again later. | Я не на станции. Попробуй позже.
+ 284 | Okay, I'll end the task and come to clean. | Хорошо, завершаю текущую задачу и еду убирать.
+ 285 | Please stay put for a moment while I locate you. | Подожди немного, я ищу своё местоположение.
+ 286 | Sorry, please create a map and try again. | Сначала создай карту, потом повтори.
+ 287 | Okay, have switched to quiet mode. | Переключился на тихий режим.
+ 288 | Okay, have switched to standard mode. | Переключился на обычный режим.
+ 289 | Okay, have switched to strong mode. | Переключился на мощный режим.
+ 290 | Okay, have switched to Turbo mode. | Включил турборежим!
+ 291 | Okay, have switched to slightly dry mode. | Включил лёгкое увлажнение.
+ 292 | Okay, have switched to wet mode. | Включил влажный режим.
+ 293 | Calling enabled. | Вызовы включены.
+ 294 | Calling disabled. | Вызовы выключены.
+ 296 | Use water tank error, please check whether the used water tank is full. | Ошибка бака для воды. Проверь, не заполнен ли бак с грязной водой.
+ 297 | Deturgent bottle installed, if the detergent has never been used, please reset in the app. | Бутылка с моющим средством установлена. Если средство новое, сбрось счётчик в приложении.
+ 298 | Start cleaning washboard base. | Запускаю очистку моющей платформы.
+ 299 | Deturgent bottle and the auto adding module installed. | Бутылка с моющим средством и модуль автоподачи установлены.
+ 300 | Your robot doesn't support this accessory. | Моя модель не поддерживает этот аксессуар.
+ 301 | Ich lade gerade | Я заряжаюсь.
+ 302 | Ich arbeite gerade | Я занят уборкой.
+ 303 | I'm in a days. | Я отдыхаю. Не тревожь без дела.
+ 304 | Netzwerk verbunden | Сеть подключена.
+ 305 | Okay, start cleaning washboard base. Please clean it inside with a brush or cloth. After 3 minutes, sewage in the washboard base will be drained. | Очищаю моющую платформу. Почисти её щёткой или тряпкой. Через три минуты грязная вода сольётся.
+ 306 | Sorry, I can't understand. Please configure the network and retry. | Не понял команду. Настрой сеть и попробуй ещё раз.
+ 307 | I'm charging. | Заряжаюсь.
+ 308 | Sorry, I didn't catch that. Please wake me up again and retry. | Не расслышал. Разбуди меня и повтори.
+ 309 | Found you, I'm coming. | Нашёл тебя! Уже иду.
+ 310 | Okay, I'm leaving this area right away. | Хорошо, сразу покидаю эту зону.
+ 311 | Wischpads entfernt | Салфетки сняты.
+ 312 | Usage information of this accessory is unavailable. Please replace it as you need. | Данные об использовании аксессуара недоступны. Замени его при необходимости.
+ 313 | Sorry, network is poor. Please move me to an area with a better signal. | Сеть слабая. Переставь меня туда, где сигнал получше.
+ 314 | Not supported, you can ask me to turn around. | Так не умею. Можешь попросить меня повернуться.
+ 315 | Moppad is not in the dock. Please retry after putting it in the dock. | Салфетка не в станции. Установи её и повтори.
+ 316 | There is Moppad in the base station already. | На станции уже есть салфетка.
+ 317 | Not supported, the robot is performing the customized cleaning task. Please go to the app to edit. | Сейчас идёт индивидуальная уборка. Измени её в приложении.
+ 318 | Wischpad gereinigt | Салфетка очищена.
+ 319 | failed to remove mop pads. Please remove the manually. | Не удалось снять салфетки. Сними их вручную.
+ 320 | failed to install mop pads. Please install them manually. | Не удалось установить салфетки. Поставь их вручную.
+ 321 | Start intensive mopping for stains. | Начинаю интенсивно оттирать пятна.
+ 322 | Sorry, I can't understand. You can open the app for all available voice commands. | Не понял. Все доступные команды найдёшь в приложении.
+ 323 | Sorry, I can't understand. You can say, hi, dream, what can you do to learn all my functions? | Не понял. Спроси: «Hey MOVA, что ты умеешь?» — и я расскажу о своих возможностях.
+ 324 | I'm washing them up, Cadd. Please wake me up after washing is done. | Промываю салфетки. Позови, когда закончу.
+ 328 | Sorry, please give this command only when I'm cleaning. | Эту команду можно давать только во время уборки.
+ 329 | Selbsttest gestartet | Запускаю самопроверку.
+ 330 | Please retry after self test completed. | Повтори команду после завершения самопроверки.
+ 331 | Kein Fehler gefunden | Ошибок не обнаружено.
+ 332 | Fehler gefunden - App prüfen | Ошибка найдена. Проверь приложение.
+ 338 | Video call connected. | Видеозвонок подключён.
+ 339 | Anruf abgelehnt | Звонок отклонён.
+ 340 | No response. | Никто не ответил.
+ 341 | Found you. Now start following. You can say, exit to end the following. | Нашёл тебя. Начинаю следовать за тобой. Скажи «стоп», чтобы закончить.
+ 342 | Where are you? Please stand about 1.5 meters in front of me. | Где ты? Встань примерно в полутора метрах передо мной.
+ 343 | I lost you. You are walking too fast. Please stand about 1.5 meters in front of me, waiting for me to find you again. | Я тебя потерял. Ты слишком быстро идёшь. Остановись примерно в полутора метрах от меня.
+ 344 | Ok, start mopping after vacuuming. | Хорошо, сначала пропылесошу, потом вымою пол.
+ 349 | Ensure that the base station is powered on. Place the robot on it to start activation. | Проверь, что станция включена, и поставь меня на неё для активации.
+ 350 | Start base station activation. | Запускаю активацию станции.
+ 351 | Vase Station activated. | Станция активирована.
+ 352 | Base Station activation failed. Open the app to check the solution. | Не удалось активировать станцию. Проверь приложение.
+ 353 | Schmutzwasserbehälter eingesetzt | Бак с грязной водой установлен.
+ 354 | Schmutzwasserbehälter entfernt | Бак с грязной водой снят.
+ 355 | Wenig Wasser - Frischwassertank auffüllen | Мало воды. Наполни бак с чистой водой.
+ 356 | Fault still exists. The scheduled task has been cancelled. | Ошибка не исчезла. Задача по расписанию отменена.
+ 358 | Schmutzwasserbehälter bitte einsetzen | Установи бак с грязной водой.
+ 360 | Wassertank wird entleert | Сливаю воду из бака.
+ 361 | Entleerung abgeschlossen | Слив завершён.
+ 362 | Moppad out of place. Robot will perform the vacuuming task instead. | Салфетка сместилась. Вместо мытья выполню пылесосную уборку.
+ 363 | Vacuuming task completed, robot will start mopping. | Пылесосить закончил. Теперь начну мыть пол.
+ 364 | Start setting the video activation code. | Настраиваю код активации видео.
+ 365 | Live video function has been disabled. | Функция видео отключена.
+ 366 | Staying detected, start cleaning. | Обнаружил, что ты рядом. Начинаю уборку.
+ 367 | Okay, start stain cleaning. | Хорошо, начинаю убирать пятно.
+ 368 | Staying detected, I'll clean it after washing them up. | Ты рядом. Сначала промою салфетки, потом уберусь.
+ 369 | Okay, start spot cleaning. | Хорошо, начинаю точечную уборку.
+ 371 | Please remove the washboard. | Сними моющую платформу.
+ 372 | Clean water starts outflowing. | Подаю чистую воду.
+ 373 | Clean water outflowing process ended. Please wait for 10 seconds, and then clean the base station after the darts are soaked. | Подача воды завершена. Подожди десять секунд, затем почисти станцию.
+ 374 | Please use a brush or cloth to clean the bottom of the base station within 20 seconds. Then the sewage will be pumped out automatically. | Почисти дно станции щёткой или тряпкой в течение двадцати секунд. Потом я откачаю грязную воду.
+ 375 | Please push the derts to the pumping court. The pumping process will last for 30 seconds. | Сдвинь грязь к сливному отверстию. Откачка займёт около тридцати секунд.
+ 376 | Pumping process ended, please clean the washboard separately and install it back. | Откачка завершена. Отдельно промой платформу и установи её обратно.
+ 377 | Unable to configure the network. Please contact customer service. | Не удалось настроить сеть. Обратись в поддержку.
+ 378 | Run password, fail to connect to the network. Please reconfigure. | Пароль неверный, подключиться не удалось. Настрой сеть заново.
+ 379 | No wireless network found, please connect to the 2.4 GHz Wi-Fi band. Try again after placing the robot close to the router. | Wi-Fi не найден. Подключись к сети 2,4 ГГц и поднеси меня ближе к роутеру.
+ 380 | Failed to obtain the IP address. Please check the router settings. | Не удалось получить IP-адрес. Проверь настройки роутера.
+ 381 | Fail to connect to the EMQ server. Please contact customer service. | Не удалось подключиться к серверу EMQ. Обратись в поддержку.
+ 382 | Fail to connect to the network. Please check whether the network works normally. | Сеть не подключилась. Проверь, работает ли интернет.
+ 383 | Unable to configure the network. Please contact customer service. | Не удалось настроить сеть. Обратись в поддержку.
+ 384 | No water in the clean water tank of the automatic water supply and drainage device. | В автоматическом модуле подачи воды нет чистой воды.
+ 385 | Start connecting to the network. | Подключаюсь к сети.
+ 386 | Schmutzwasserbehälter voll - fahre zum Entleeren | Бак с грязной водой полон. Еду сливать.
+ 387 | Entleerung abgeschlossen, Aufgabe geht weiter | Слив завершён. Продолжаю задачу.
+ 388 | Hit an area, please move the robot to the available area and retry. | Здесь нельзя убирать. Переставь меня на свободное место и повтори.
+ 389 | LDS failed to descend. Please check if it is stuck. | Лазерный датчик не опускается. Проверь, не застрял ли он.
+ 390 | LDS failed to lift. Please check if it is stuck. | Лазерный датчик не поднимается. Проверь, не застрял ли он.
+ 391 | Please place me in an open area before starting the task. | Перед запуском поставь меня на открытое место.
+ 392 | Adjusting cleaning parameters is not supported in clean genius mode. | В режиме Clean Genius параметры уборки не меняются.
+ 393 | Schmutzwasserbehälter verschmutzt | Бак с грязной водой загрязнён. Почисти его.
+ 394 | Wassersensor defekt | Датчик воды неисправен.
+ 396 | Start emptying the water supply and drainage module, which is expected to take 3 minutes. | Опорожняю модуль подачи и слива воды. Это займёт около трёх минут.
+ 397 | drainage of upper and lower water completed. | Слив воды сверху и снизу завершён.
+ 398 | Mapping complete, check the map and app and return me to dock. | Карта готова. Проверь её в приложении и верни меня на станцию.
+ 399 | Test complete, please move me back to dock. | Проверка завершена. Переставь меня обратно на станцию.
+ 400 | Self-cleaning completed, now move the host to the corresponding floor and flip the start button to continue working. | Самоочистка завершена. Переставь меня на нужный этаж и нажми старт.
+ 401 | Please move me to dock and start the self-cleaning task. | Поставь меня на станцию и запусти самоочистку.
+ 421 | Sprache erfolgreich gewechselt | Язык успешно изменён. Теперь говорю по-русски.
+ 424 | Positioning failed, please move me to an open area and restart the task. | Не смог определить положение. Переставь меня на открытое место и запусти снова.
+ 426 | Ich bin abgerutscht und stecke fest | Я соскользнул и застрял. Помоги выбраться.
+ 433 | Zusatzreinigung gestartet | Запускаю дополнительную уборку.
+ 434 | Zusatzreinigung fertig | Дополнительная уборка завершена.
+ 435 | Leaving the current area. | Покидаю эту зону.
+ 437 | Problem gelöst - Start drücken | Проблема решена. Нажми старт.
+ 438 | Stoßstange klemmt | Бампер заело.
+ 439 | Lasersensor-Abdeckung klemmt | Крышка лазерного датчика застряла.
+ 440 | Rad in der Luft - Roboter umsetzen | Колесо висит в воздухе. Переставь меня.
+ 441 | Hauptbürste verheddert | В основной щётке запутались волосы. Почисти её.
+ 442 | Seitenbürste verheddert | В боковой щётке запутались волосы. Освободи её.
+ 443 | Räder verheddert | Колёса запутались. Проверь их.
+ 444 | Roboter auf freie Fläche stellen | Поставь меня на свободное место.
+ 445 | Wischpad verloren | Салфетка потерялась. Проверь, где она.
+ 446 | Wischpad-Halter verheddert | Держатель салфетки застрял. Проверь его.
+ 447 | Station ohne Strom | На станции нет питания. Проверь розетку.
+ 448 | Schmutzwassertank nicht eingesetzt | Бак с грязной водой не установлен.
+ 449 | Start auf Teppich nicht möglich | На ковре запускать меня нельзя.
+ 450 | Start in Sperrzone nicht möglich | В запретной зоне запуск невозможен.
+ 451 | Unable to start tasks in hidden area, please move robot to other areas and restart the task. | В скрытой зоне запускать уборку нельзя. Переставь меня в другое место.
+ 452 | Fehler Teppichsensor | Ошибка датчика ковра.
+ 453 | Fehler Kantensensor | Ошибка датчика края.
+ 454 | Zu wenig Frischwasser | Чистой воды слишком мало.
+ 455 | Frischwassertank falsch eingesetzt | Бак с чистой водой установлен неправильно.
+ 456 | Schmutzwassertank voll oder fehlt | Бак с грязной водой полон или отсутствует.
+ 457 | Use water tank full or not installed, please check. | Бак для воды полон или не установлен. Проверь его.
+ 458 | Staubbeutel falsch eingesetzt | Мешок для пыли установлен неправильно.
+ 459 | Wischpad-Halter falsch eingesetzt | Держатель салфетки установлен неправильно.
+ 460 | Geruchsfilter verschlissen | Фильтр от запахов износился. Пора заменить.
+ 463 | Welcome to use Dream Robot. Please open robots cover and scan QR code to download Dream Home app to view more operations. | Добро пожаловать! Открой крышку и отсканируй QR-код, чтобы скачать приложение.
+ 464 | To complete subsequent tasks smoothly, place robot back into dock before starting tasks. When hearing, start charging, it means the installation is in place. | Перед запуском поставь меня на станцию. Услышишь «Начинаю зарядку» — значит, всё установлено правильно.
+ 465 | Place robot back into dock before starting tasks. When hearing, start charging, it means the installation is in place. | Поставь меня на станцию перед уборкой. Когда скажу «Заряжаюсь», всё готово.
+ 466 | Please open room doors to be cleaned and clean up objects on the ground. | Открой двери в комнаты и убери вещи с пола.
+ 467 | Please place robot back into dock, then restart mapping. | Поставь меня на станцию и начни построение карты заново.
+ 468 | Please confirm map details in the app. | Проверь карту в приложении.
+ 478 | After completing mop washing, robot will resume cleaning task. | Когда закончу мыть салфетку, продолжу уборку.
+ 479 | Already, restart your task. | Хорошо, перезапускаю задачу.
+ 480 | Add enough water in the clean water tank for subsequent tasks. | Долей чистой воды, чтобы её хватило на следующую уборку.
+ 481 | Start emptying the vacuum cleaner. | Начинаю опустошать ручной пылесос.
+ 482 | Vacuum cleaner is being emptied. Robot emptying will be done later. | Опустошаю ручной пылесос. Себя очищу позже.
+ 483 | Vacuum cleaner is being emptied. Mop washing will be done later. | Опустошаю ручной пылесос. Салфетки промою позже.
+ 484 | Vacuum cleaner is being emptied. Robot vacuuming will be done later. | Опустошаю ручной пылесос. К уборке вернусь позже.
+ 485 | Robot is being emptied, vacuum cleaner will be emptied later. | Очищаю свой пылесборник. Ручной пылесос опустошу позже.
+ 486 | Mop washing is in process. Vacuum cleaner will be emptied later. | Промываю салфетки. Ручной пылесос опустошу позже.
+ 487 | Please ensure I am in the dock. | Проверь, что я стою на станции.
+ 489 | Currently in clean genius mode, please tell me to end the task and try again. | Сейчас включён Clean Genius. Сначала заверши эту задачу.
+ 490 | Okay, enter Customize Cleaning Mode, start mopping. | Хорошо, включаю индивидуальную уборку и начинаю мытьё.
+ 491 | Okay, enter Customize Cleaning Mode, start vacuuming. | Хорошо, включаю индивидуальную уборку и начинаю пылесосить.
+ 492 | Okay, start to clean the living room. Make sure the door is open. | Убираю гостиную. Дверь, пожалуйста, открой.
+ 493 | Okay, start to clean the bedroom. Make sure the door is open. | Убираю спальню. Дверь, пожалуйста, открой.
+ 494 | Okay, start to clean the master room. Make sure the door is open. | Убираю главную спальню. Дверь, пожалуйста, открой.
+ 495 | Okay, start to clean the guest room. Make sure the door is open. | Убираю гостевую комнату. Дверь, пожалуйста, открой.
+ 496 | Okay, start to clean the study. Make sure the door is open. | Убираю кабинет. Дверь, пожалуйста, открой.
+ 497 | Okay, start to clean the kitchen. Make sure the door is open. | Убираю кухню. Дверь, пожалуйста, открой.
+ 498 | Okay, start to clean the dining room. Make sure the door is open. | Убираю столовую. Дверь, пожалуйста, открой.
+ 499 | Okay, start to clean the bathroom. Make sure the door is open. | Убираю ванную. Дверь, пожалуйста, открой.
+ 500 | Okay, start to clean the balcony. Make sure the door is open. | Убираю балкон. Дверь, пожалуйста, открой.
+ 501 | Okay, start to clean the hallway. Make sure the door is open. | Убираю коридор. Дверь, пожалуйста, открой.
+ 502 | Okay, start to clean the utility room. Make sure the door is open. | Убираю подсобное помещение. Дверь, пожалуйста, открой.
+ 503 | Okay, start to clean the closet. Make sure the door is open. | Убираю гардеробную. Дверь, пожалуйста, открой.
+ 504 | Okay, start to clean the drawing room. Make sure the door is open. | Убираю гостиную. Дверь, пожалуйста, открой.
+ 505 | Okay, start to clean the office. Make sure the door is open. | Убираю офис. Дверь, пожалуйста, открой.
+ 506 | Okay, start to clean the gym. Make sure the door is open. | Убираю спортзал. Дверь, пожалуйста, открой.
+ 507 | Okay, start to clean the recreation area. Make sure the door is open. | Убираю зону отдыха. Дверь, пожалуйста, открой.
+ 508 | Lautstärke erhöht | Делаю громче.
+ 509 | Lautstärke verringert | Делаю тише.
+ 510 | Arbeit beendet | Работа завершена.
+ 511 | Sorry, I am not performing a task now. | Сейчас я ничего не убираю.
+ 512 | Map doesn't include pet furniture yet. Please add it in the app. | На карте ещё нет мебели для питомца. Добавь её в приложении.
+ 513 | Okay, heading to clean around the pet furniture. | Хорошо, убираюсь вокруг места питомца.
+ 515 | Entschuldigung, könnten Sie die Füße heben? | Подними ноги, пожалуйста. Я тут проеду.
+ 516 | Start finding pets. | Ищу питомцев.
+ 517 | Find your pets successfully, start returning to charge. | Нашёл питомца. Возвращаюсь заряжаться.
+ 518 | No pets found, start returning to charge. | Питомцев не нашёл. Возвращаюсь на базу.
+ 522 | What issue would you like to report? | Что случилось? Какую проблему записать?
+ 523 | Could you please describe the issue in more detail? | Расскажи чуть подробнее, что произошло.
+ 524 | Please take me to the area where the issue occurred. | Отведи меня к месту, где возникла проблема.
+ 525 | Please wait, I'm analyzing. | Подожди, я разбираюсь.
+ 526 | Battery level is 100%. | Заряд аккумулятора — 100 процентов.
+ 527 | Battery level is 99%. | Заряд аккумулятора — 99 процентов.
+ 528 | Battery level is 98%. | Заряд аккумулятора — 98 процентов.
+ 529 | Battery level is 97%. | Заряд аккумулятора — 97 процентов.
+ 530 | Battery level is 96%. | Заряд аккумулятора — 96 процентов.
+ 531 | Battery level is 95%. | Заряд аккумулятора — 95 процентов.
+ 532 | Battery level is 94%. | Заряд аккумулятора — 94 процентов.
+ 533 | Battery level is 93%. | Заряд аккумулятора — 93 процентов.
+ 534 | Battery level is 92%. | Заряд аккумулятора — 92 процентов.
+ 535 | Battery level is 91%. | Заряд аккумулятора — 91 процентов.
+ 536 | Battery level is 90%. | Заряд аккумулятора — 90 процентов.
+ 537 | Battery level is 89%. | Заряд аккумулятора — 89 процентов.
+ 538 | Battery level is 88%. | Заряд аккумулятора — 88 процентов.
+ 539 | Battery level is 87%. | Заряд аккумулятора — 87 процентов.
+ 540 | Battery level is 86%. | Заряд аккумулятора — 86 процентов.
+ 541 | Battery level is 85%. | Заряд аккумулятора — 85 процентов.
+ 542 | Battery level is 84%. | Заряд аккумулятора — 84 процентов.
+ 543 | Battery level is 83%. | Заряд аккумулятора — 83 процентов.
+ 544 | Battery level is 82%. | Заряд аккумулятора — 82 процентов.
+ 545 | Battery level is 81%. | Заряд аккумулятора — 81 процентов.
+ 546 | Battery level is 80%. | Заряд аккумулятора — 80 процентов.
+ 547 | Battery level is 79%. | Заряд аккумулятора — 79 процентов.
+ 548 | Battery level is 78%. | Заряд аккумулятора — 78 процентов.
+ 549 | Battery level is 77%. | Заряд аккумулятора — 77 процентов.
+ 550 | Battery level is 76%. | Заряд аккумулятора — 76 процентов.
+ 551 | Battery level is 75%. | Заряд аккумулятора — 75 процентов.
+ 552 | Battery level is 74%. | Заряд аккумулятора — 74 процентов.
+ 553 | Battery level is 73%. | Заряд аккумулятора — 73 процентов.
+ 554 | Battery level is 72%. | Заряд аккумулятора — 72 процентов.
+ 555 | Battery level is 71%. | Заряд аккумулятора — 71 процентов.
+ 556 | Battery level is 70%. | Заряд аккумулятора — 70 процентов.
+ 557 | Battery level is 69%. | Заряд аккумулятора — 69 процентов.
+ 558 | Battery level is 68%. | Заряд аккумулятора — 68 процентов.
+ 559 | Battery level is 67%. | Заряд аккумулятора — 67 процентов.
+ 560 | Battery level is 66%. | Заряд аккумулятора — 66 процентов.
+ 561 | Battery level is 65%. | Заряд аккумулятора — 65 процентов.
+ 562 | Battery level is 64%. | Заряд аккумулятора — 64 процентов.
+ 563 | Battery level is 63%. | Заряд аккумулятора — 63 процентов.
+ 564 | Battery level is 62%. | Заряд аккумулятора — 62 процентов.
+ 565 | Battery level is 61%. | Заряд аккумулятора — 61 процентов.
+ 566 | Battery level is 60%. | Заряд аккумулятора — 60 процентов.
+ 567 | Battery level is 59%. | Заряд аккумулятора — 59 процентов.
+ 568 | Battery level is 58%. | Заряд аккумулятора — 58 процентов.
+ 569 | Battery level is 57%. | Заряд аккумулятора — 57 процентов.
+ 570 | Battery level is 56%. | Заряд аккумулятора — 56 процентов.
+ 571 | Battery level is 55%. | Заряд аккумулятора — 55 процентов.
+ 572 | Battery level is 54%. | Заряд аккумулятора — 54 процентов.
+ 573 | Battery level is 53%. | Заряд аккумулятора — 53 процентов.
+ 574 | Battery level is 52%. | Заряд аккумулятора — 52 процентов.
+ 575 | Battery level is 51%. | Заряд аккумулятора — 51 процентов.
+ 576 | Battery level is 50%. | Заряд аккумулятора — 50 процентов.
+ 577 | Battery level is 49%. | Заряд аккумулятора — 49 процентов.
+ 578 | Battery level is 48%. | Заряд аккумулятора — 48 процентов.
+ 579 | Battery level is 47%. | Заряд аккумулятора — 47 процентов.
+ 580 | Battery level is 46%. | Заряд аккумулятора — 46 процентов.
+ 581 | Battery level is 45%. | Заряд аккумулятора — 45 процентов.
+ 582 | Battery level is 44%. | Заряд аккумулятора — 44 процентов.
+ 583 | Battery level is 43%. | Заряд аккумулятора — 43 процентов.
+ 584 | Battery level is 42%. | Заряд аккумулятора — 42 процентов.
+ 585 | Battery level is 41%. | Заряд аккумулятора — 41 процентов.
+ 586 | Battery level is 40%. | Заряд аккумулятора — 40 процентов.
+ 587 | Battery level is 39%. | Заряд аккумулятора — 39 процентов.
+ 588 | Battery level is 38%. | Заряд аккумулятора — 38 процентов.
+ 589 | Battery level is 37%. | Заряд аккумулятора — 37 процентов.
+ 590 | Battery level is 36%. | Заряд аккумулятора — 36 процентов.
+ 591 | Battery level is 35%. | Заряд аккумулятора — 35 процентов.
+ 592 | Battery level is 34%. | Заряд аккумулятора — 34 процентов.
+ 593 | Battery level is 33%. | Заряд аккумулятора — 33 процентов.
+ 594 | Battery level is 32%. | Заряд аккумулятора — 32 процентов.
+ 595 | Battery level is 31%. | Заряд аккумулятора — 31 процентов.
+ 596 | Battery level is 30%. | Заряд аккумулятора — 30 процентов.
+ 597 | Battery level is 29%. | Заряд аккумулятора — 29 процентов.
+ 598 | Battery level is 28%. | Заряд аккумулятора — 28 процентов.
+ 599 | Battery level is 27%. | Заряд аккумулятора — 27 процентов.
+ 600 | Battery level is 26%. | Заряд аккумулятора — 26 процентов.
+ 601 | Battery level is 25%. | Заряд аккумулятора — 25 процентов.
+ 602 | Battery level is 24%. | Заряд аккумулятора — 24 процентов.
+ 603 | Battery level is 23%. | Заряд аккумулятора — 23 процентов.
+ 604 | Battery level is 22%. | Заряд аккумулятора — 22 процентов.
+ 605 | Battery level is 21%. | Заряд аккумулятора — 21 процентов.
+ 606 | Battery level is 20%. | Заряд аккумулятора — 20 процентов.
+ 607 | Battery level is 19%. | Заряд аккумулятора — 19 процентов.
+ 608 | Battery level is 18%. | Заряд аккумулятора — 18 процентов.
+ 609 | Battery level is 17%. | Заряд аккумулятора — 17 процентов.
+ 610 | Battery level is 16%. | Заряд аккумулятора — 16 процентов.
+ 611 | Battery level is 15%. | Заряд аккумулятора — 15 процентов.
+ 612 | Battery level is 14%. | Заряд аккумулятора — 14 процентов.
+ 613 | Battery level is 13%. | Заряд аккумулятора — 13 процентов.
+ 614 | Battery level is 12%. | Заряд аккумулятора — 12 процентов.
+ 615 | Battery level is 11%. | Заряд аккумулятора — 11 процентов.
+ 616 | Battery level is 10%. | Заряд аккумулятора — 10 процентов.
+ 617 | Battery level is 9%. | Заряд аккумулятора — 9 процентов.
+ 618 | Battery level is 8%. | Заряд аккумулятора — 8 процентов.
+ 619 | Battery level is 7%. | Заряд аккумулятора — 7 процентов.
+ 620 | Battery level is 6%. | Заряд аккумулятора — 6 процентов.
+ 621 | Battery level is 5%. | Заряд аккумулятора — 5 процентов.
+ 622 | Battery level is 4%. | Заряд аккумулятора — 4 процентов.
+ 623 | Battery level is 3%. | Заряд аккумулятора — 3 процентов.
+ 624 | Battery level is 2%. | Заряд аккумулятора — 2 процентов.
+ 625 | Battery level is 1%. | Заряд аккумулятора — 1 процентов.
+ 626 | Battery level is 0%. | Заряд аккумулятора — 0 процентов.
+ 630 | Welcome to use MOVA, robot. Please open robots cover and scan QR code to download app to view more operations. | Добро пожаловать в MOVA! Открой крышку и отсканируй QR-код, чтобы скачать приложение.
+ 631 | Begrüßung Ersteinrichtung - QR-Code scannen | Привет! Открой крышку и отсканируй QR-код для настройки.
+ 632 | Sprachwechsel dauert ca. 30 Sekunden | Смена языка займёт около тридцати секунд.
+ 633 | Sprachwechsel fehlgeschlagen | Не удалось сменить язык.
+ 634 | Haarentwirrung beginnt | Начинаю распутывать волосы.
+ 636 | Wischpad verschmutzt - zur Station fahren | Салфетка загрязнилась. Возвращаюсь на станцию.
+ 638 | resuming auto empty. | Продолжаю автоочистку пылесборника.
+ 639 | Waschbrett-Filter einsetzen | Установи фильтр моющей платформы.
+ 641 | Already, say to robot, hey MOVA, start cleaning. | Чтобы начать уборку, просто попроси меня об этом.
+ 642 | Saita robot, HEMOVA, increase suction | Попроси меня увеличить мощность всасывания.
+ 643 | Saita robot, Hey MOVA, increase water level | Попроси меня увеличить подачу воды.
+ 644 | say to robot hey MOVA start vacuuming and mopping later to switch modes | Попроси меня включить пылесос и мытьё пола.
+ 645 | say to robot hey mova start mopping later to switch modes | Попроси меня начать мыть пол.
+ 646 | say to robot, hey MOVA, come here and clean, later to activate spot cleaning. | Попроси меня подойти и убрать здесь.
+ 647 | say to robot hey MOVA. Start mopping after vacuuming later to switch modes. | Попроси меня сначала пропылесосить, а потом вымыть пол.
+ 648 | say to robot, hey MOVA. Start cleaning, later to activate global cleaning. | Попроси меня начать полную уборку.
+ 658 | Kalkschutz abgelaufen - ersetzen | Срок службы защиты от накипи истёк. Замени её.
+ 659 | Sorry, I didn't understand. You can say hey, MOVA, what skills do you have to learn about all my abilities? | Я не понял. Спроси: «Hey MOVA, что ты умеешь?» — и я расскажу.
+ 660 | Nicht verstanden - frag mich nach meinen Fähigkeiten | Не понял. Скажи: «Hey Rover, что ты умеешь?» — и я перечислю возможности.
+ 661 | Start cleaning washboard base, it will take about 45 to 60 seconds. | Начинаю чистить моющую платформу. Это займёт около минуты.
+ 662 | Start making electrolyzed water to clean them up. | Готовлю электролизованную воду для очистки.
+ 663 | Abnormal water level detected in the washboard. Please clean the washboard filter and washboard filter groove, then restart the task. | Уровень воды в платформе неправильный. Почисти фильтр и его паз, затем перезапусти задачу.
+ 664 | Hinweis Sprachbefehl: Reinigung starten | Скажи: «Hey Rover, начни уборку».
+ 665 | Hinweis Sprachbefehl: Reinigung starten, wenn alles bereit | Когда всё будет готово, скажи: «Hey Rover, начни уборку».
+ 666 | Hinweis Sprachbefehl: Saugleistung erhöhen | Скажи: «Hey Rover, увеличь мощность всасывания».
+ 667 | Hinweis Sprachbefehl: Wasserstand erhöhen | Скажи: «Hey Rover, увеличь подачу воды».
+ 668 | Hinweis Sprachbefehl: Saugen starten, später Modus wechseln | Скажи: «Hey Rover, начни пылесосить». Потом попроси переключить режим.
+ 669 | Hinweis Sprachbefehl: Wischen starten, später Modus wechseln | Скажи: «Hey Rover, начни мыть пол». Потом попроси переключить режим.
+ 670 | Hinweis Sprachbefehl: Komm her und reinige | Скажи: «Hey Rover, подойди сюда и убери».
+ 671 | Hinweis Sprachbefehl: Saugen starten | Скажи: «Hey Rover, начни пылесосить».
+ 672 | Hinweis Sprachbefehl: Reinigung starten, später alles reinigen | Скажи: «Hey Rover, начни уборку». Потом попроси убрать всю квартиру.
+ 673 | Clearance legs may be entangled. Please clean them before starting the tasks. | На ножках могли запутаться волосы. Убери их перед запуском.
+ 674 | Mopp könnte feststecken oder verheddert sein | Роликовая швабра могла застрять или запутаться. Проверь её.
+ 677 | Unable to reach the specified area, please remove the no-go zones or impassable thresholds on the path. | Не могу добраться до зоны. Удали запретные участки или высокие пороги на пути.
+ 678 | Cleaning path is blocked, please remove the no-go zones or impassable thresholds in the map, or move robot out of the area. | Путь перекрыт. Удали запретные зоны и непроходимые пороги с карты или освободи проход.
+ 679 | Robot is blocked in a no-go zone or impassable threshold area. Please move it out of the area. | Я застрял в запретной зоне или у порога. Переставь меня оттуда.
+ 680 | Robot will map the area before cleaning. | Сначала построю карту этой зоны, потом начну уборку.
+ 681 | Okay, I'll continue cleaning. | Хорошо, продолжаю уборку.
+ 682 | Mopp dreht sich nicht mehr | Роликовая швабра остановилась.
+ 683 | Mopp nicht angebracht | Швабра не установлена. Поставь её и повтори.
+ 689 | Trocknen von Staubbehälter und Beutel beginnt | Начинаю сушить пылесборник и мешок.
+ 690 | Trocknen von Staubbehälter und Beutel angehalten | Сушка пылесборника и мешка остановлена.
+ 691 | Mopp wird gewaschen - später erneut versuchen | Швабра сейчас моется. Попробуй позже.
+ 692 | Rückkehr zum Laden - Zusatzreinigung nicht möglich | Возвращаюсь на зарядку. Дополнительную уборку сейчас не выполнить.
+ 694 | say to robot, hey MOVA, start cleaning. | Попроси меня начать уборку.
+ 696 | Klappenfehler | Ошибка крышки.
+ 697 | Gesperrt - Kindersicherung deaktivieren | Я заблокирован. Отключи защиту от детей.
+ 698 | Kartierung fertig, Station nicht gefunden - reinige selbst | Карту построил, но станцию не нашёл. Уберусь самостоятельно.
+ 699 | Sensorfehler - Kamerasensor prüfen | Ошибка датчика. Проверь камеру.
+ 701 | Platte ist heiß - nicht berühren | Пластина горячая. Не трогай её.
+ 702 | Reinigung mit temporärer Karte nicht möglich | С временной картой уборка невозможна. Нажми уборку ещё раз, чтобы сохранить карту.
+ 703 | Staub- und Mopptrocknung beginnt | Начинаю сушить пылесборник и швабру.
+ 704 | Mopptrocknung pausiert | Сушка швабры приостановлена.
+ 706 | Fehlfunktion des Kreisels | Ошибка гироскопа. Перезапусти задачу.
+ 707 | Fehlfunktion des Fahrgestells | Ошибка шасси. Перезапусти задачу.
+ 708 | Weg zur Ladestation blockiert | Путь к станции перекрыт. Убери препятствие.
+ 711 | Desinfektion beginnt | Начинаю дезинфекцию.
+ 712 | Waschbrett ist heiß - nicht berühren | Моющая платформа горячая. Не трогай её.
+ 715 | Mopp fehlt in der Basisstation | На станции нет швабры. Установи её, чтобы продолжить.
+ 716 | Mopp fehlt - Aufgabe läuft im Standardmodus | Швабры на станции нет. Пока продолжу в обычном режиме.
+ 717 | Mopp nicht richtig platziert | Швабра установлена неправильно. Поправь её.
+ 718 | Im Energiesparmodus nicht änderbar | В энергосберегающем режиме это изменить нельзя. Отключи его и попробуй снова.
+ 719 | Fehler beim Moppwechsel | Не удалось заменить швабру.
+ 722 | Mopp wird in heißem Wasser aufgewärmt - dauert länger | Прогреваю швабру горячей водой. Это займёт чуть больше времени. Потерпи.
+ 723 | Hinweis Kartierung: Licht an, Türen frei | Для построения карты включи свет, открой двери и освободи проходы.
+ 724 | Mopp in der Station falsch positioniert | Швабра на станции лежит неправильно. Поправь её.
+ 725 | Fehler der Moppabdeckung | Ошибка крышки швабры.
+ 726 | Fehler des Rollmopps | Ошибка роликовой швабры.
+ 728 | Bodenpflege beginnt | Начинаю уход за полом.
+ 729 | Mopp wird gewechselt - später erneut versuchen | Швабра меняется. Попробуй позже.
+ 731 | Schmutzwassertank voll - zur Station zurückbringen | Бак с грязной водой полон. Возвращаюсь на станцию.
+ 752 | Bodenpflege wird fortgesetzt | Продолжаю уход за полом.
+ 754 | Positionierung erfolgreich - Bodenpflege geht weiter | Нашёл своё положение. Продолжаю уход за полом.
+ 755 | Lasersensor gestört - auf Schmutz prüfen | Лазерный датчик барахлит. Проверь, не загрязнился ли он.
+ 757 | Schmutzwassertank voll - bitte leeren | Бак с грязной водой полон. Опустоши его.
+ 758 | Wasserstand niedrig - an der Station nachfüllen | Воды мало. Верни меня на станцию и запусти долив.
+ 765 | Mopp wird ersetzt - später erneut versuchen | Швабра меняется. Попробуй позже.
+ 771 | Rollmopp bleibt stehen oder ist blockiert | Роликовая швабра остановилась или заблокирована.
+ 775 | Bei laufendem Mopp die Klappe geschlossen halten | Пока швабра крутится, держи крышку закрытой.
+ 777 | Zeitlimit abgelaufen - Hindernisse unter dem Gerät prüfen | Время вышло. Проверь, нет ли препятствий подо мной.
+ 778 | Achtung, auf die Finger achten | Осторожно, береги пальцы!
+ 779 | Zeitlimit für das Entfernen des Mopps abgelaufen | Время на снятие швабры истекло.
+ 780 | Aufnehmen oder Ablegen des Mopps fehlgeschlagen | Не удалось установить или снять швабру. Попробуй вручную.
+ 782 | Fehler beim Auflockern der Rolle - bitte reinigen | Не удалось распушить ролик. Почисти его.
+ 784 | Nach Schritt eins verlasse ich die Station automatisch | После первого этапа я самостоятельно покину станцию.
+ 785 | Waschbrett-Basis von Hand reinigen | Почисти основание платформы вручную щёткой или тряпкой.
+ 786 | Reinigung der Waschbrett-Basis abgeschlossen | Основание моющей платформы очищено.
+ 787 | Kehre zur Station zurück, um den Mopp zu reinigen | Возвращаюсь на станцию, чтобы вымыть швабру.
+ 795 | Reinigung der Waschbrett-Basis startet (ca. 2 Minuten) | Начинаю чистку основания платформы. Это займёт около двух минут.
+ 797 | Mögliche Gerätestörung - Kundendienst kontaktieren | Возможно, робот неисправен. Обратись в сервис.
+ 798 | Selbstreinigung der Station läuft - Roboter nicht bewegen | Станция самоочищается. Не двигай меня, пожалуйста.
+ 799 | Zeitlimit abgelaufen - Haustiere oder Hindernisse prüfen | Время вышло. Проверь, нет ли подо мной питомцев или препятствий.
+ 805 | Aufsaugen grober Schmutzpartikel startet | Начинаю собирать крупный мусор.
+ 812 | Bitte zum Laden in die Station stellen | Поставь меня на станцию для зарядки.
+ 813 | Kräftige Absaugung der Verunreinigungen beginnt | Запускаю мощное всасывание грязи.
+ 814 | Selbstreinigung und kräftige Absaugung starten | Запускаю самоочистку станции и мощное всасывание.
+ 823 | Wasserstand im Waschbrett nicht normal - reinigen | Уровень воды в платформе неправильный. Почисти её.
+ 824 | Rollmopp bleibt stehen oder ist blockiert | Роликовая швабра остановилась или заблокирована.
+ 828 | Filter abgelaufen - bald reinigen | Срок фильтра вышел. Скоро почисти или замени его.
+ 849 | Trocknen von Staubbehälter und Beutel beginnt | Начинаю сушить пылесборник и мешок.
+ 850 | Trocknen von Staubbehälter und Beutel angehalten | Сушка пылесборника и мешка остановлена.
+ 857 | Waschbrett bitte einsetzen | Установи моющую платформу.
+ 910 | Begrüßung im Ausstellungsbereich | Добро пожаловать на выставку! Я тут главный по чистоте.
+ 915 | Wasserstand im Waschbrett nicht normal - Filter reinigen | Уровень воды в платформе неправильный. Почисти фильтр.
+
+
