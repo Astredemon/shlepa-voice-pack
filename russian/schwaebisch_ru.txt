@@ -414,14 +414,14 @@
  636 | Wischpad verschmutzt - zur Station fahren | Салфетка загрязнилась. Возвращаюсь на станцию.
  638 | resuming auto empty. | Продолжаю автоочистку пылесборника.
  639 | Waschbrett-Filter einsetzen | Установи фильтр моющей платформы.
- 641 | Already, say to robot, hey MOVA, start cleaning. | Чтобы начать уборку, просто попроси меня об этом.
- 642 | Saita robot, HEMOVA, increase suction | Попроси меня увеличить мощность всасывания.
- 643 | Saita robot, Hey MOVA, increase water level | Попроси меня увеличить подачу воды.
- 644 | say to robot hey MOVA start vacuuming and mopping later to switch modes | Попроси меня включить пылесос и мытьё пола.
- 645 | say to robot hey mova start mopping later to switch modes | Попроси меня начать мыть пол.
- 646 | say to robot, hey MOVA, come here and clean, later to activate spot cleaning. | Попроси меня подойти и убрать здесь.
- 647 | say to robot hey MOVA. Start mopping after vacuuming later to switch modes. | Попроси меня сначала пропылесосить, а потом вымыть пол.
- 648 | say to robot, hey MOVA. Start cleaning, later to activate global cleaning. | Попроси меня начать полную уборку.
+ 641 | Already, say to robot, hey MOVA, start cleaning. | Скажи: «Hey MOVA, начни уборку».
+ 642 | Saita robot, HEMOVA, increase suction | Скажи: «Hey MOVA, увеличь мощность всасывания».
+ 643 | Saita robot, Hey MOVA, increase water level | Скажи: «Hey MOVA, увеличь подачу воды».
+ 644 | say to robot hey MOVA start vacuuming and mopping later to switch modes | Скажи: «Hey MOVA, начни пылесосить и мыть пол».
+ 645 | say to robot hey mova start mopping later to switch modes | Скажи: «Hey MOVA, начни мыть пол».
+ 646 | say to robot, hey MOVA, come here and clean, later to activate spot cleaning. | Скажи: «Hey MOVA, подойди сюда и убери».
+ 647 | say to robot hey MOVA. Start mopping after vacuuming later to switch modes. | Скажи: «Hey MOVA, сначала пропылесось, потом вымой пол».
+ 648 | say to robot, hey MOVA. Start cleaning, later to activate global cleaning. | Скажи: «Hey MOVA, начни полную уборку».
  658 | Kalkschutz abgelaufen - ersetzen | Срок службы защиты от накипи истёк. Замени её.
  659 | Sorry, I didn't understand. You can say hey, MOVA, what skills do you have to learn about all my abilities? | Я не понял. Спроси: «Hey MOVA, что ты умеешь?» — и я расскажу.
  660 | Nicht verstanden - frag mich nach meinen Fähigkeiten | Не понял. Скажи: «Hey Rover, что ты умеешь?» — и я перечислю возможности.
@@ -450,7 +450,7 @@
  690 | Trocknen von Staubbehälter und Beutel angehalten | Сушка пылесборника и мешка остановлена.
  691 | Mopp wird gewaschen - später erneut versuchen | Швабра сейчас моется. Попробуй позже.
  692 | Rückkehr zum Laden - Zusatzreinigung nicht möglich | Возвращаюсь на зарядку. Дополнительную уборку сейчас не выполнить.
- 694 | say to robot, hey MOVA, start cleaning. | Попроси меня начать уборку.
+ 694 | say to robot, hey MOVA, start cleaning. | Скажи: «Hey MOVA, начни уборку».
  696 | Klappenfehler | Ошибка крышки.
  697 | Gesperrt - Kindersicherung deaktivieren | Я заблокирован. Отключи защиту от детей.
  698 | Kartierung fertig, Station nicht gefunden - reinige selbst | Карту построил, но станцию не нашёл. Уберусь самостоятельно.
